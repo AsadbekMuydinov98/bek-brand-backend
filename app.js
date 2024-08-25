@@ -10,7 +10,7 @@ const errorMiddleware = require('./middlewares/error.middleware')
 const cors = require('cors')
 
 const app = express()
-const allowedOrigins = ['http://localhost:5173', 'https://bek-brand.vercel.app', 'https://uzbekbrand.pages.dev'];
+const allowedOrigins = ['http://localhost:5173', 'https://bek-brand.vercel.app', 'https://uzbekbrand.pages.dev', 'https://www.bekbrands.com/', 'https://bekbranduz.pages.dev'];
 
 app.use(cors({
   origin: function (origin, callback) {
